@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Manuel Martinez Lopez | Portafolio Personal</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="css/portafolio.css">
+    <!-- JS Personalizado -->
+    <script src="js/portafolio.js" defer></script>
+</head>
+<body class="d-flex flex-column h-100" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70">
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white py-3 sticky-top shadow-sm">
+        <div class="container px-5">
+            <a class="navbar-brand fw-bolder text-primary" href="#inicio">Eduardo Manuel Martinez Lopez</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECCIÓN HERO (Diseño StartBootstrap Personal) -->
+    <header id="inicio" class="py-5">
+        <div class="container px-5 pb-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-xxl-5">
+                    <div class="text-center text-xxl-start">
+                        <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
+                            <div class="text-uppercase">Desarrollo Web &bull; Front-End &bull; UI/UX</div>
+                        </div>
+                        <h1 class="display-3 fw-bolder mb-5">
+                            <span class="text-gradient d-inline">Convierto ideas en experiencias web excepcionales</span>
+                        </h1>
+                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                            <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder shadow" href="#proyectos">Mis Proyectos</a>
+                            <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="#sobre-mi">Conóceme</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-7">
+                    <div class="d-flex justify-content-center mt-5 mt-xxl-0">
+                        <div class="profile-shape-bg shadow-lg">
+                            <!-- AQUÍ VA TU FOTO -->
+                            <img class="profile-img" src="img/perfil.jpg" alt="Eduardo Manuel" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECCIÓN SOBRE MÍ -->
+    <section id="sobre-mi" class="bg-light py-5">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-xxl-8">
+                    <div class="text-center my-5">
+                        <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Sobre Mí</span></h2>
+                        <p class="lead fw-light mb-4">Mi nombre es Eduardo Manuel y soy un apasionado por la tecnología y el desarrollo de software.</p>
+                        <p class="text-muted text-start fs-5">
+                            Actualmente me encuentro en formación profesional, enfocándome en la creación de aplicaciones web estructuradas, intuitivas y eficientes. Mi objetivo es dominar el ecosistema Front-End y, en un futuro cercano, expandir mis conocimientos hacia el desarrollo Full-Stack, aprendiendo tecnologías modernas para brindar soluciones completas y escalables a problemas del mundo real.
+                        </p>
+                        <div class="d-flex justify-content-center fs-2 gap-4 mt-4">
+                            <a class="text-gradient" href="#!"><i class="bi bi-github"></i></a>
+                            <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN Habilidades -->
+    <section id="habilidades" class="py-5">
+        <div class="container px-5 mb-5">
+            <div class="text-center mb-5">
+                <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Habilidades Profesionales</span></h1>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-11 col-xl-10 col-xxl-9">
+                    <div class="card shadow border-0 rounded-4 mb-5">
+                        <div class="card-body p-5">
+                            
+                            <!-- Habilidades Adquiridas (Basadas en tus proyectos y conocimientos) -->
+                            <h5 class="text-primary fw-bolder mb-4"><i class="bi bi-check-circle-fill me-2"></i>Competencias Actuales</h5>
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
+                                <div class="col">
+                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 shadow-sm border-start border-primary border-4">
+                                        <i class="bi bi-filetype-html text-primary display-6 me-3"></i> 
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">HTML5 Semántico</h6>
+                                            <small class="text-muted">Estructura web moderna</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 shadow-sm border-start border-primary border-4">
+                                        <i class="bi bi-filetype-css text-primary display-6 me-3"></i> 
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">CSS3 & Flexbox</h6>
+                                            <small class="text-muted">Maquetación responsiva</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 shadow-sm border-start border-primary border-4">
+                                        <i class="bi bi-bootstrap-fill text-primary display-6 me-3"></i> 
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Bootstrap 5</h6>
+                                            <small class="text-muted">Sistemas de rejilla y UI</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 shadow-sm border-start border-primary border-4">
+                                        <i class="bi bi-filetype-js text-primary display-6 me-3"></i> 
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">JavaScript ES6</h6>
+                                            <small class="text-muted">Lógica y control del DOM</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 shadow-sm border-start border-primary border-4">
+                                        <i class="bi bi-database-fill text-primary display-6 me-3"></i> 
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Bases de Datos</h6>
+                                            <small class="text-muted">Modelado y gestión</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 shadow-sm border-start border-primary border-4">
+                                        <i class="bi bi-github text-primary display-6 me-3"></i> 
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Git & GitHub</h6>
+                                            <small class="text-muted">Control de versiones</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Habilidades Aspiracionales (Lo que pide la profesora) -->
+                            <h5 class="text-secondary fw-bolder mb-4"><i class="bi bi-rocket-takeoff-fill text-gradient me-2"></i>En Proyección (Aspiracionales)</h5>
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                                <div class="col">
+                                    <div class="d-flex align-items-center bg-white rounded-4 p-3 h-100 text-muted border border-secondary border-opacity-25">
+                                        <i class="bi bi-boxes fs-1 me-3 opacity-50"></i> 
+                                        <div>
+                                            <h6 class="mb-0 fw-bold text-dark">React.js / Vue.js</h6>
+                                            <small>Frameworks Frontend</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex align-items-center bg-white rounded-4 p-3 h-100 text-muted border border-secondary border-opacity-25">
+                                        <i class="bi bi-server fs-1 me-3 opacity-50"></i> 
+                                        <div>
+                                            <h6 class="mb-0 fw-bold text-dark">Node.js</h6>
+                                            <small>Desarrollo Backend</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex align-items-center bg-white rounded-4 p-3 h-100 text-muted border border-secondary border-opacity-25">
+                                        <i class="bi bi-filetype-tsx fs-1 me-3 opacity-50"></i> 
+                                        <div>
+                                            <h6 class="mb-0 fw-bold text-dark">TypeScript</h6>
+                                            <small>JavaScript tipado</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN PROYECTOS -->
+    <section id="proyectos" class="py-5 bg-light">
+        <div class="container px-5 mb-5">
+            <div class="text-center mb-5">
+                <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Proyectos Destacados</span></h1>
+                <p class="text-muted mt-2">Sistemas y aplicaciones desarrolladas en mi formación</p>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-11 col-xl-9 col-xxl-8">
+                    
+                    <!-- Proyecto 1: Tienda de Ropa -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 project-card">
+                        <div class="card-body p-0">
+                            <div class="d-flex align-items-center">
+                                <div class="p-5">
+                                    <h2 class="fw-bolder">E-Commerce Tienda de Ropa</h2>
+                                    <p class="text-muted">Desarrollo de interfaz y maquetación para un sistema de ventas de ropa. Incluye catálogo de productos, carrito de compras y diseño 100% responsivo.</p>
+                                    <span class="badge bg-primary">HTML5</span>
+                                    <span class="badge bg-secondary">CSS3</span>
+                                </div>
+                                <div class="p-5 bg-gradient-primary-to-secondary text-white text-center d-none d-lg-block" style="width: 300px;">
+                                    <i class="bi bi-shop display-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 2: Gimnasio -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 project-card">
+                        <div class="card-body p-0">
+                            <div class="d-flex align-items-center">
+                                <div class="p-5">
+                                    <h2 class="fw-bolder">Dashboard para Gimnasio</h2>
+                                    <p class="text-muted">Plataforma administrativa diseñada para la gestión de membresías, rutinas y control de acceso de usuarios en un centro deportivo.</p>
+                                    <span class="badge bg-primary">Bootstrap 5</span>
+                                    <span class="badge bg-dark">UI/UX</span>
+                                </div>
+                                <div class="p-5 bg-dark text-white text-center d-none d-lg-block" style="width: 300px;">
+                                    <i class="bi bi-activity display-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 3: Restaurante -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 project-card">
+                        <div class="card-body p-0">
+                            <div class="d-flex align-items-center">
+                                <div class="p-5">
+                                    <h2 class="fw-bolder">Sistema de Restaurante</h2>
+                                    <p class="text-muted">Interfaz interactiva para la visualización del menú, toma de órdenes y gestión de mesas en un entorno de hostelería.</p>
+                                    <span class="badge bg-primary">Diseño Web</span>
+                                    <span class="badge bg-warning text-dark">JavaScript</span>
+                                </div>
+                                <div class="p-5 bg-gradient-primary-to-secondary text-white text-center d-none d-lg-block" style="width: 300px;">
+                                    <i class="bi bi-cup-hot display-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 4: Lógica JS -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 project-card">
+                        <div class="card-body p-0">
+                            <div class="d-flex align-items-center">
+                                <div class="p-5">
+                                    <h2 class="fw-bolder">Colección de Lógica JS</h2>
+                                    <p class="text-muted">Conjunto de aplicaciones funcionales que incluyen una calculadora, un gestor de tareas local y un manipulador dinámico de Nodos del DOM.</p>
+                                    <span class="badge bg-warning text-dark">JavaScript ES6</span>
+                                    <span class="badge bg-success">Lógica</span>
+                                </div>
+                                <div class="p-5 bg-light text-dark border-start text-center d-none d-lg-block" style="width: 300px;">
+                                    <i class="bi bi-braces text-warning display-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-white py-4 mt-auto border-top">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto"><div class="small m-0">Copyright &copy; Eduardo Manuel 2026. Proyecto Académico.</div></div>
+                <div class="col-auto">
+                    <a class="small" href="#!">Privacidad</a>
+                    <span class="mx-1">&middot;</span>
+                    <a class="small" href="#!">Términos</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
